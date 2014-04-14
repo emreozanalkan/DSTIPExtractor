@@ -27,9 +27,9 @@ int main(void)
         return 0;
     }
 
-    cout << "Duration: " << depthFileReader.getFrameCount() << endl;
-    cout << "Cols: " << depthFileReader.getColsCount() << endl;
-    cout << "Rows: " << depthFileReader.getRowsCount() << endl;
+    cout << "Duration: " << depthFileReader.getFrameCount() << " frames." <<endl;
+    cout << "Width: " << depthFileReader.getColsCount() << endl;
+    cout << "Height: " << depthFileReader.getRowsCount() << endl;
 
     return 0;
 }
